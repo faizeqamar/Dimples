@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.datingapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Delete"></activity>
+        <activity android:name=".MainProfileOne" />
+        <activity android:name=".MainActivityOne" />
+        <activity android:name=".MainProfileTwo" />
+        <activity android:name=".MainProfile" />
+        <activity android:name=".LR_Activity" />
+        <activity android:name=".LoginReset" />
+        <activity android:name=".ResetLogin" />
+        <activity android:name=".Signup" />
+        <activity android:name=".Login" />
+        <activity
+            android:name=".Tapped"
+            android:label="@string/title_activity_tapped"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ListOfGirls" />
+        <activity android:name=".Profile" />
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

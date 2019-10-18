@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "962302580120",
+    "firebase_url": "https://dating-app-9d956.firebaseio.com",
+    "project_id": "dating-app-9d956",
+    "storage_bucket": "dating-app-9d956.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:962302580120:android:6fe439d8d6828ccbd7c7ed",
+        "android_client_info": {
+          "package_name": "com.example.datingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "962302580120-dvfid48bufhrf14f2082othbrh9o8m7o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.datingapp",
+            "certificate_hash": "a005f9bf77c236e60e39cf7ec79566b75d10f822"
+          }
+        },
+        {
+          "client_id": "962302580120-tgk2ua5n95oeaduhl7bet0phe4esqire.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuLcwC-KuNzEnzNOwJfjbcaVRBQYRMpyI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "962302580120-tgk2ua5n95oeaduhl7bet0phe4esqire.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

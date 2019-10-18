@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".Signup">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/darkBlue"
+        android:gravity="center"
+
+        >
+
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="25dp"
+        android:hint="Enter Your Name"
+        android:textSize="14dp"
+        android:textColor="@color/white"
+        android:textCursorDrawable="@color/white"
+        android:textColorHint="@color/white"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/ic_person_outline_black_24dp"
+        android:drawablePadding="10dp"
+
+        />
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="25dp"
+        android:ems="10"
+        android:hint="Enter Your Email"
+        android:textSize="14dp"
+        android:textColor="@color/white"
+        android:textCursorDrawable="@color/white"
+        android:textColorHint="@color/white"
+        android:backgroundTint="@color/white"
+        android:inputType="textEmailAddress"
+        android:drawableLeft="@drawable/ic_email_black_24dp"
+        android:drawablePadding="10dp"
+        />
+
+    <EditText
+        android:id="@+id/etPhonNmbr"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="25dp"
+        android:ems="10"
+        android:hint="Enter Your Phone Number"
+        android:textSize="14dp"
+        android:textColor="@color/white"
+        android:textCursorDrawable="@color/white"
+        android:textColorHint="@color/white"
+        android:backgroundTint="@color/white"
+        android:inputType="phone"
+        android:drawableLeft="@drawable/ic_phone_black_24dp"
+        android:drawablePadding="10dp"
+        />
+ <EditText
+        android:id="@+id/et_age"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="25dp"
+        android:ems="10"
+        android:hint="Enter Your Age"
+        android:textSize="14dp"
+        android:textColor="@color/white"
+        android:textCursorDrawable="@color/white"
+        android:textColorHint="@color/white"
+        android:backgroundTint="@color/white"
+        android:inputType="date"
+        android:drawableLeft="@drawable/age_26px"
+        android:drawablePadding="10dp"
+        />
+ <EditText
+        android:id="@+id/et_gender"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="25dp"
+        android:ems="10"
+        android:hint="Enter Your gender"
+        android:textSize="14dp"
+        android:textColor="@color/white"
+        android:textCursorDrawable="@color/white"
+        android:textColorHint="@color/white"
+        android:backgroundTint="@color/white"
+        android:inputType="text"
+        android:drawableLeft="@drawable/gender_31px"
+        android:drawablePadding="10dp"
+        />
+
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="25dp"
+        android:ems="10"
+        android:hint="**********"
+        android:textSize="14dp"
+        android:textColor="@color/white"
+        android:textCursorDrawable="@color/white"
+        android:textColorHint="@color/white"
+        android:inputType="textPassword"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/ic_lock_black_24dp"
+        android:drawablePadding="10dp"/>
+
+    />
+
+
+
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/roun_btn"
+        android:text="Sign Up"
+        android:textColor="@color/darkBlue"
+        android:layout_gravity="center"
+        android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+</androidx.core.widget.NestedScrollView>
